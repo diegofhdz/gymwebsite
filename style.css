@@ -16,7 +16,7 @@ h1.name {
 header.main {
     display: flex;
     color: white;
-    background-color: darkblue;
+    background-color: #201E1D;
     justify-content: space-between;
     align-items: center;
     padding: 15px 7%;
@@ -35,4 +35,9 @@ ul, li, a {
 .navitem {
     display: inline-block;
     padding: 0px 15px;
+}
+
+.bg-img {
+    height: 900px; 
+    width: 100%;
 }
