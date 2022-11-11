@@ -46,7 +46,7 @@ h1.mainheader {
     color: whitesmoke;
 }
 
-body {
+body.index {
     background-color: #201E1D;
 }
 
@@ -57,7 +57,7 @@ body {
     margin-top: 20px;
     background-color: lightgray;
 }
-h2.title{
+h2.title {
     padding-top: 15px;
 }
 
@@ -71,4 +71,33 @@ ul.list {
 
 li.listitem {
     margin: 5px 5px;
+}
+
+footer.foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+h2.foot {
+    color: whitesmoke;
+    margin: 20px 20px 20px 20px;
+}
+
+ul.foot {
+    color: white;
+    margin: 0 30px;
+}
+
+li.foot {
+    margin: 10px 0px;
+}
+
+a.foot {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a.foot:hover {
+    color: gray;
 }
