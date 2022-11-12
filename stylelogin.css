@@ -8,6 +8,7 @@ section#main {
     width: 100%;
     font-family: "Amazon Ember", sans-serif;
     margin-top: 100px;
+    margin-bottom: 300px;
 }
 
 div.loginportal {
@@ -84,5 +85,7 @@ input[type="password"] {
 }
 
 h5.needhelp {
+    margin-top: 10px;
     margin-left: 15px;
+    margin-bottom: 20px;
 }
