@@ -66,6 +66,7 @@ h1.mainheader {
     justify-content: space-around;
     margin-top: 20px;
     background-color: lightgray;
+    background-image: url("static/dumbbell_2__28b_w_29.jpg");
 }
 
 h2.title {
@@ -145,11 +146,14 @@ div.tile {
     justify-content: center;
     justify-self: center;
     flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(32, 30, 29, 0.73)
 }
 
 h1.mainheaderabout {
     text-align: center;
-    margin: 30px auto;
+    padding: 30px;
 }
 
 div.container-values {
@@ -158,8 +162,32 @@ div.container-values {
     grid-template-rows: 500px 500px;
     justify-content: center;
     margin: 0 auto;
+    padding-top: 50px;
+    background-image: url("static/gymphoto.jpeg");
+    background-size: 100%;
 }
 
 h1.tile , p.values {
+    color: whitesmoke;
     text-align: center;
+
+}
+
+p.values {
+    height: 150px;
+    padding: 10px;
+}
+
+div.headerabout {
+    background-color: lightgray;
+}
+
+h1.contact {
+    padding: 30px;
+    font-size: 48px;
+    color: orange;
+}
+
+form.form {
+    display: grid;
 }
