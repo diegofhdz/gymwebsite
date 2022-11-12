@@ -131,3 +131,35 @@ a.foot {
 a.foot:hover {
     color: gray;
 }
+
+img.tile {
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+}
+
+div.tile {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+h1.mainheaderabout {
+    text-align: center;
+    margin: 30px auto;
+}
+
+div.container-values {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h1.tile , p.values {
+    text-align: center;
+}
